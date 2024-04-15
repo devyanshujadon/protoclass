@@ -1,11 +1,13 @@
 import Image from "next/image";
 import { ModeToggle } from "@/components/ModeToggle";
 import { Button } from "@/components/ui/button";
+import Header from "@/components/Header";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <ModeToggle />
-      <Button>Click me</Button>
+    <main className="flex min-h-screen px-24 ">
+    <Header />
+      
+      
     </main>
   );
 }
